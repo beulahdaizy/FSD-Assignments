@@ -1,0 +1,54 @@
+/* Style for larger screens */
+.navbar {
+  background-color: blue;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-list li {
+  margin: 0 20px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Media Query for Small Screens */
+@media screen and (max-width: 768px) {
+  /* .nav-list {
+    display: none;
+  } */
+
+  #ham-bar {
+    display: block;
+    font-size: 24px;
+  }
+
+  .nav-list {
+    background: grey;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0;
+    transition: 2s;
+  }
+
+  .nav-list a {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+  }
+}
