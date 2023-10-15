@@ -1,0 +1,48 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgba(232, 183, 238, 0.74);
+}
+.section-center {
+  width: 90vw;
+  margin: 5rem auto;
+  max-width: 1170px;
+}
+.gift-img {
+  margin-bottom: 2rem;
+}
+.gift-info h3 {
+  color: red;
+}
+.gift-info p {
+  color: rgb(32, 29, 29);
+  margin: 1rem 0;
+  line-height: 1;
+  word-spacing: 1;
+}
+.deadline {
+  display: flex;
+}
+.deadline-format {
+  background: brown;
+  color: white;
+  margin-right: 1rem;
+  width: 5rem;
+  height: 5rem;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.deadline-format span {
+  display: block;
+  font-size: 0.85rem;
+}
+.deadline h4:not(.expired) {
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+}
